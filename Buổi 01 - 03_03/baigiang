@@ -1,0 +1,73 @@
+Tao file:
+- index.html => web server => tu nhan file index.html lam file goc
+
+while space: 
+- dau cach (space)
+- tab
+- new line (xuong dong) => la 1 ky tu
+
+=> html => white space => bo qua
+
+Cau truc cua trang html:
+- doctype: loai tai lieu: <!DOCTYPE html>
+- html:
+	- head: dau
+		+ title: Tieu de
+		+ meta:
+		+ link:
+	- body: than
+		+ div: vung tren trang web
+			+ tao ra 1 vung tren trang web
+			+ chua cac the khac
+		+ p : doan van (paragraph)
+		+ h (h1->h6) heading
+		+ ul => unorder list
+		+ ol => order list
+		+ li => phan tu danh sach
+		+ img : image - hinh anh
+		+ br : break => xuong hang
+		+ span : the danh dau => dung de viet css
+			=> khong co y nghia ket thuc
+		+ a : lien ket: click vao => chay den trang khac
+
+		+ header
+		+ section
+		+ sidebar
+		+ footer
+		=> giong the div => tao ra mot vung tren trang web
+
+		Form: o nhap du lieu
+			+ input
+				+ text: o nhap chu
+				+ password
+				+ email:
+				+ button
+				+ submit: gui du lieu di
+				+ reset: xoa du lieu cua form
+				+ checkbox
+				+ radio
+				+ number
+				+ color
+			+ select:
+				+ option
+			+ label:
+				Nhan
+
+Phan chia:
+	+ The hien thi noi dung: p, h, li, img, a
+	+ The dung de bao boc: div, section, header, footer, form => the giao dien
+
+=> the giao dien chua cac the noi dung
+=> the giao dien => ko duoc nam trong the noi dung
+
++ Block va inline:
+	+ Block: Dang khoi: minh no nam tren 1 dong
+		+ div, p, h, form, ul, li, ol
+
+	+ Inline: Tren dong: nam cung dong voi cac the khac
+		+ con lai: button, input, select, span
+
+=> thanh phan block => khong the nam trong thanh phan inline
+
+Bai tap:
+Tao mot trang html => viet het tat ca cac the da hoc => xem
