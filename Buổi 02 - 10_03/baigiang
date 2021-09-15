@@ -1,0 +1,101 @@
+CSS:
+- Chua lam duoc giao dien hoan chinh => met => chan
+
++ box model: mo hinh hop
+Tat ca cac element (thanh phan) (the) => hinh chu nhat
+
++ noi dung
++ padding: khoang cach giua noi dung va duong vien (phia trong)
+	+ padding-left: 
+	+ padding-right:
+	+ padding-top:
+	+ padding-bottom:
++ border: duong vien
++ margin: khoang cach giua element va cac element xung quanh
+	+ margin-left: 
+	+ margin-right:
+	+ margin-top:
+	+ margin-bottom:
+
++ Tong khoang khong gian chiem cho:
+	= noi dung + padding + border width + margin
+
+Chrome developer tools: f12
++ computed:
+	Viet css: tinh toan het cac thuoc tinh cua element
+
++ Selector: Bo chon
+
++ Chon bang ten the:
++ chon bang id
+	+ Dinh danh
+	#[ten id]
+	+ id: chi dung cho 1 element duy nhat
++ chon bang class:
+	+ giong nhu id
+	+ dung cho nhieu element
+	dau .
+	+ mot element co the co nhieu class
+
++ chon thanh phan nho hon:
+	+ su dung dau cach
++ Chon thanh phan con (truc tiep)
++ Chon tong hop nhieu dieu kien
+	+ Viet lien cac dieu kien
++ Chon nhieu thanh phan:
+	+ dau phay
++ Chon theo attribute
+	dau [ten thuoc tinh = gia tri]
++ Chon phan tu dau tien:
+	selector:first-child 
++ chon phan tu cuoi cung:
+	selector:last-child
++ chon phan tu theo thu tu
+	+ :nth-child(n)
+	+ :nth-child(odd) => so le
+	+ :nth-child(odd) => so chan
+	+ su dung tham so n:
+		+ 3 cai thi co 1 cai do
+		+ n la mot so 0 => vo cung
+		3n:
+			n = 0 => 0
+			n = 1 => 3
+			n = 2 => 6
+			n = 3 => 9
+		+ 3 cai thi co 1 cai do => bat dau 2
+			2-5-8-11
+			
+Chon tat ca: *
+
+not() Khong phai
+is()
+
++ reset css
+Moi trinh duyet => co nhung gia tri khac nhau
+ 
+Dinh nghia ra nhung thuoc tinh => tat ca trinh duyet tro ve trang thai giong nhau
+
+margin: 0; => Tat ca cac element => xep sat nhau
+padding: 0; => Tat ca cac element
+
++ 6 thuoc tinh quan trong nhat cua css:
++ 6 thuoc tinh anh huong den kich thuoc cua element:
+
++ padding: 4 huong
+	+ Viet 1 gia tri: 4 huong
+	+ Viet 2 gia tri: (tren duoi) (trai phai)
+	+ Viet 4 gia tri: tren phai duoi trai
+	+ padding-left:
+	+ padding-right
+	+ padding-bottom
+	+ padding-top
++ margin:
++ border-width
++ width: chieu rong
++ height: chieu cao
++ box-sizing:
+	+ Dinh nghia chieu rong va chieu cao => tinh tu dau?
+		+ border-box
+			+ Chieu rong tinh tu border tro vao
+				width = border + padding + noi dung
+		+ content-box: width = chieu rong noi dung
