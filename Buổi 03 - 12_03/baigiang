@@ -67,4 +67,5 @@ Flex:
 	+ flex-basis: Kich thuoc theo truc main;
 		+ Chinh la width khi truc main nam ngang 
 		+ Chinh la height khi truc main nam doc
+	+ order
 
