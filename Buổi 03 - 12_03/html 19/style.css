@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+#cha {
+	border: 2px solid red;
+	display: flex;
+	flex-direction: column;
+	height: 400px;
+}
+#cha div {
+	border: 2px solid green;
+}
+#mot {
+	width: 150px;
+	flex-grow: 1;
+}
+#hai {
+	width: 150px;
+	flex-grow: 3;
+}
+
+

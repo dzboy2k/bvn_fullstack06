@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+#cha {
+	border: 1px solid black;
+	text-align: center;
+}
+#con {
+	width: 200px;
+	background-color: green;
+	margin-left: auto;
+	margin-right: auto;
+}

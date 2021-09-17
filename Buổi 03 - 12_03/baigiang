@@ -1,0 +1,70 @@
+Cac don vi: px, %
+Mac dinh: tren xuong duoi, trai qua phai
++ Alignment:
+	+ block: 
+		+ can trai => mac dinh => margin-right: auto
+		+ can phai: margin-left: auto
+		+ can giua
+	+ inline: 
+		+ xep tren 1 hang => giong nhu text
+		+ text-align: cho thanh phan cha
+
++ Dat dang hien thi: display:
++ Block, inline, inline-block:
+
++ Block: 
+	+ co the dat chieu rong, chieu cao cho no
++ Inline element:
+	+ Khong the dat chieu rong chieu cao
+	+ Dc doi xu nhu text:
+		+ chieu cao: font-size
+	+ Chieu rong bang noi dung ben trong
++ inline-block:
+	+ Giong inline
+ 	+ xep tren 1 hang
+ 	+ dat duoc chieu rong, chieu cao
+
++ Border:
+	+ Viet tat: [rong] [kieu border] [mau vien]
+	+ border-width:
+	+ border-style:
+	+ border-color:
+
+	border-top: [rong] [kieu border] [mau vien]
++ max-width:
++ max-height:
+
+===========================
+Flex:
++ Su dung flex:
+	+ Dat thuoc tinh display cho cha: display: flex;
+	+ Sap xep 1 thanh phan con => theo 1 truc (main) ngang
+	+ flex-direction:
+		- xac dinh truc chinh theo huong nao
+		+ column: cot => truc main => tren xuong duoi
+		+ row-reverse
+		+ column-reverse;
+	+ justify-content:
+		+ cach sap xep cac thanh phan con => theo 1 truc (main)
+		+ flex-start: xep o dau truc
+		+ flex-end: xep o cuoi truc
+		+ center: xep o giua
+		+ space-between: co khoang cach o giua 
+		+ space-around: co khoang cach xung quanh 
+	+ align-items:
+		+ sap xep cac thanh phan con cross
+
+	+ flex-wrap: bao boc
+		+ Xuong hang hay khong
+
++ Cac thanh phan con:
+	+ flex-grow: [1 con so]
+		+ Ti le chia phan thua con lai trong tp cha
+		+ Theo chieu truc main
+		grow: thua => lon len => cho du => theo ti le
+		shrink: thieu => nho lai => cho du => theo ti le
+	+ flex-shrink: 1 con so
+	+ flex-basis: Kich thuoc theo truc main;
+		+ Chinh la width khi truc main nam ngang 
+		+ Chinh la height khi truc main nam doc
+

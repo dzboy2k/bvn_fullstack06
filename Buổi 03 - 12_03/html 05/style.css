@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+#cha {
+	width: 400px;
+	border: 1px solid black;
+	text-align: right;
+}
+#con {
+	display: inline-block;
+	width: 150px;
+	background-color: green;
+}

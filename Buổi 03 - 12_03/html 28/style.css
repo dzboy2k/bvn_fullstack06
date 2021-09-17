@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+#cha {
+	border: 2px solid red;
+	display: flex;
+	height: 400px;
+	align-items: center;
+}
+#cha div {
+	border: 2px solid green;
+	width: 100px;
+	height: 100px;
+}
+
+
+
