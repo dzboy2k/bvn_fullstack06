@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+#tenLop {
+	width: 200px;
+	border: 1px solid red;
+	float: left;
+}
+p {
+	float: right;
+	border: 1px solid black;
+	width: calc(100% - 200px);
+}
+
+#useFlex {
+	display: flex;
+	width: 100%;
+}
+#useFlex div {
+	border: 1px solid green;
+}

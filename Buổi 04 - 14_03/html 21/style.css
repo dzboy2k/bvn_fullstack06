@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+p {
+	line-height: 30px;
+	text-transform: lowercase;
+}
+button {
+	text-indent: -100000px;
+	width: 150px;
+	height: 50px;
+	background-color: red;
+	text-align: center;
+}

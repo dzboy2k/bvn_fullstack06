@@ -1,0 +1,10 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+p {
+	line-height: 30px;
+	text-transform: uppercase;
+}

@@ -1,0 +1,44 @@
++ Dung flex de lam gi?
+	+ dan trang
+	+ Dan trang flex => chua an toan
+	+ Float, clear
+
++ Float, clear => nho nho, it quan trong => flex
+
++ Float:
+	+ Tat ca cac element deu troi len phia tren, ben trai
+	+ Float: element se troi sang ben trai hoac phai
+	+ Nen: 1 cai float trai, 1 cai float sang phai	
+
++ Van de cua float:
+	+ Khi float mot thanh phan => thang cha => ko tinh toan duoc chieu cao
+
++ Chia 3 cot:
+	+ float left het
+
++ Clear:
+	+ Chan khong cho cac thanh phan ben duoi troi len phan thua
+	+ both: ca hai (ca ben trai va ben phai)
+	+ left: clear ben trai
+	+ right: clear ben phai
+
++ Neu phia truoc co thanh phan dang float => clear di => nam rieng 1 dong => clear both: 
+
++ Clearfix:
++ pseudo element:
+
++ Text va cac thuoc tinh cua text:
++ Chu: hinh anh => lay tu font
++ Dong chu: la cac hinh chu nhat duoc sap xep lien nhau theo chieu doc
++ Chu cai => xep nam giua dong chu theo chieu doc
++ line-height: do cao dong: chieu cao cua dong chu
++ font-size: do cao cua chu cai
++ letter-spacing: khoang cach giua 2 chu cai
++ word-spacing: khoang cach giua 2 tu (dau cach)
++ text-transform: uppercase - lowercase
++ text-indent: can le
+	+ text-indent: -1000000px;
++ text-align: can le chu (left/right/center)
+
+=> de can giua chu trong mot element:
+	Dat height = line-height => hien thi chinh xac 1 dong chu
