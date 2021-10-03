@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+.clearfix:after {
+	content: ' ';
+	display: block;
+	clear: both;
+}
+.container {
+	width: 1000px;
+	margin: 0px auto;
+}
+header {
+	border-bottom: 1px solid black;
+}
+header > div {
+	display: flex;
+	justify-content: space-between;
+}
+header ul li {
+	display: inline-block;
+}
+
+/* top-ads */
+#top-ads {
+	width: 800px;
+    margin: 10px auto;
+}
+#top-ads img {
+	max-width: 100%;
+}
+
+/* Main */
+#main {
+
+}
+#content {
+	width: 750px;
+	float: left;
+}
+#feature-songs > div:first-child img{
+	max-width: 100%;
+}
+#feature-songs ul {
+	background-color: black;
+	padding: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+#feature-songs ul li {
+	display: inline-block;
+}
+
+
+#sidebar {
+	width: 220px;
+	margin-left: 30px;
+	float: right;
+}
+
+/** block **/
+.block h3 {
+	padding: 10px 0px;
+}
+.block h3 a {
+	color: #2daaed;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+.block-body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.block-body .song {
+	width: 18%;
+}
+.block-body .song:last-child {
+	margin-right: 0px;
+}
+.block-body .song img {
+	max-width: 100%;
+}
