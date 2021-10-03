@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	padding: 20px;
+}
+.btn {
+	padding: 0px 25px;
+	line-height: 30px;
+	color: white;
+	border-radius: 3px;
+	border: none;
+	border-bottom: 4px solid rgba(0, 0, 0, 0.2);
+}
+
+.btn-blue {
+	background-color: #55acee;
+}
+
+.btn-red {
+	background-color: #e74c3c;
+}
+
+.btn2 {
+	padding: 0px 20px;
+	text-transform: uppercase;
+	color: #f36b43;
+	line-height: 30px;
+	border-left: 7px solid #f36b43;
+	border-right: 7px solid #f36b43;
+	border-top: 1px solid #f36b43;
+	border-bottom: 1px solid #f36b43;
+}

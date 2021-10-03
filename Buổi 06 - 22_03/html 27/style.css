@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#one {
+	width: 700px;
+	height: 700px;
+	background-color: red;
+	background-image: url(bg.jpg), url(cover-bg.jpg);
+	background-repeat: no-repeat, no-repeat;
+	background-position: center center, left top;
+	background-size: 250px, 400px;
+	
+}

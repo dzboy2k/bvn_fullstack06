@@ -1,0 +1,15 @@
+Background:
+Mau nen => anh nen
+
+- background-color: mau nen;
+	+ RGB: #aabbcc
+	+ RGBA: red-green-blue-alpha
+- background-image: anh nen
+	+ Co anh nen => van nen co mau nen
+- background-repeat
+- background-position
+- background-size
++ Nhieu background:
+
++ border-radius:
+	+ bo goc:

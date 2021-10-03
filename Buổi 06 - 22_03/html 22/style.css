@@ -1,0 +1,18 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#one {
+	width: 700px;
+	height: 700px;
+	background-color: rgba(155, 0, 0, 0.5);
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	background: red url(bg.jpg) no-repeat center center;
+
+	background-size: 120px;
+}

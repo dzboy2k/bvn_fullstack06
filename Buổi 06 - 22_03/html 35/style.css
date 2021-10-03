@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+body {
+	padding: 20px;
+}
+
+ul#menu {
+	background-color: #54c1c1;
+	border-radius: 2px;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.4);
+	padding: 0px 25px;
+}
+ul#menu li {
+	display: inline-block;
+}
+
+ul#menu li a {
+	color: white;
+	font-size: 16px;
+	display: inline-block;
+	line-height: 50px;
+	padding: 0px 30px;
+	font-weight: bold;
+}
+ul#menu li a:hover {
+	background-color: rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,14 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#one {
+	width: 700px;
+	height: 700px;
+
+	background: red url(cover-bg.jpg) no-repeat center center;
+
+	background-size: contain;
+}
