@@ -1,0 +1,70 @@
++ position:
+  + Vi tri:
+  + fixed: co dinh so voi body
+    + left, right, top, bottom
+  + sticky:
+  + relative va absolute
+    (cap doi huyen thoai)
+  + Cha: relative - con absolute
+    + absolute: giong nhu fix, vi tri tuyet doi
+    so voi: thanh phan gan nhat co position relative
+  + thanh phan con: vuot qua ra ben ngoai thanh phan cha
+  + left, top, bottom, right
+
+Border:
+
+Tooltip:
+
+Khong phai co gang nho
+  + cai gi can nho => dung den nhieu => tu nho
+  + cai gi it dung => it quan trong => ko can nho
+
+overflow:
+  + Dinh dang khi vuot qua kich thuoc
+outline:
+  duong vien => mac dinh trinh duyet => nam ngoai border
+  + Cung mot luc => chi xu ly 1 thanh phan
+
+An 1 thanh phan tren trang web:
+  display: none; => bien mat
+  visibility: hidden; => bien mat => chiem cho
+  opacity: 0; => trong suot => van con => click duoc
+
+Hinh anh tren trang web:
+Cac loai hinh anh:
+  + jpg: anh chup
+    + anh chup, phong canh
+    + khong ho tro trong suot
+  + png: 
+    + phu hop voi cac anh logo, ve bang cac phan mem do hoa
+    + co vung mau rieng biet
+    + ho tro trong suot
+  + gif:
+    + ho tro trong suot (kem)
+      + bi rang cua
+    + nhe hon png
+    + it mau hon
+    + ho tro anh dong
+  + webp:
+    + nhe hon
+    + trong suot
+    + khong phai moi trinh duyet deu ho tro
+  + bitmap:
+    + nang
+    + ko trong suot
+
+pseudo class: (state)
+la class dac biet => khi 1 element o mot trang thai
+cu the nao do
+  :hover => di chuot qua
+  :focus
+  :last-child, first-child, not()
+  :checked (input checkbox)
+  :disabled
+
+  The link: a
+    :link
+    :active => trang hien tai = link
+    :visited => da xem trang nay chua?
+
+pseudo-element:

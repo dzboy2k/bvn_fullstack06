@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	padding: 30px;
+}
+#test {
+	border-width: 10px;
+	border-style: solid;
+	border-top-color: blueviolet;
+	border-left-color: transparent;
+	border-bottom-color: transparent;
+	border-right-color: transparent;
+	width: 0px;
+	height: 0px;
+	border-top-width: 18px;
+}

@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+body {
+	padding: 70px;
+}
+#abc {
+	background-color: red;
+}
+#abc:hover {
+	background-color: blue;
+}
+#abc:focus {
+	border: 3px solid orange;
+}
+#username:focus {
+	background-color: red;
+}

@@ -1,0 +1,18 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	padding: 30px;
+}
+#test {
+	border-width: 10px;
+	border-style: solid;
+	border-top-color: blueviolet;
+	border-left-color: crimson;
+	border-bottom-color: darkgray;
+	border-right-color: darkslategray;
+	width: 100px;
+	height: 100px;
+}
