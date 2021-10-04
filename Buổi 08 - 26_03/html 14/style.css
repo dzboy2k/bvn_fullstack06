@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+body {
+	padding: 30px;
+}
+@font-face {
+	font-family: BucThu;
+	src: url(font/BucThu.TTF);
+}
+@font-face {
+	font-family: BayBuom;
+	src: url(font/BayBuom_R.TTF);
+	font-weight: 300;
+}
+@font-face {
+	font-family: BayBuom;
+	src: url(font/BayBuom_B.TTF);
+	font-weight: bold;
+}
+p {
+	font-family: BayBuom, Arial, Tahoma, sans-serif;
+	font-weight: 300;
+}
+p i {
+	color: red;
+	font-size: 14px;
+}
+

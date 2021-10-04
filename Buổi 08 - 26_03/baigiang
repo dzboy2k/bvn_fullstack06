@@ -1,0 +1,49 @@
+pseudo element:
+
+::before
+::after
+clearfix:
+  .clearfix::after {
+    display: block;
+    clear: both;
+  }
+::first-letter chu cai dau tien
+::marker: list
+
+Font:
+- la mot loat cac anh => luu file font
+font-family: [danh sach cac font], sans-serif;
+sans-serif: la font mac dinh
+
++ Font tren may:
+  + Toc do nhanh
+  + Ko chac tren may nguoi dung co font do
+  + website nghe thuat
++ Font tren mang (online): web font
+  + Tai ve: cham
+  + Dep
+  + Chac chan se co font
+  + Nang them
+font-face: dinh nghia 1 font
+
++ icon font:
+  + su dung font => luu cac anh
+  + font awesome
+  + Go chu a => hien hinh chu a
+    => ve hinh nguoi
+  
+    
+font-size: kich thuoc cua font (don vi do trong css)
+font-weight: do dam cua font
+  + normal: binh thuong = 400
+  + bold: dam = 700
+  + con so:
+kich thuoc (don vi do trong css)
++ px: pixel: 1 diem anh
++ em: chinh bang font size
+    + 2em => 2 lan font size
++ rem: root em => font size cua root
++ pt: point: 72pixel/inche => dot, point 
+    1/72 inch
++ mm:
++ cm:

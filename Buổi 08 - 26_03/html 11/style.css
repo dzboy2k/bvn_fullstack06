@@ -1,0 +1,18 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+body {
+	padding: 30px;
+}
+@font-face {
+	font-family: BucThu;
+	src: url(font/BucThu.TTF);
+}
+p {
+	font-family: BucThu, Arial, Tahoma, sans-serif;
+	font-weight: bold;
+}
+

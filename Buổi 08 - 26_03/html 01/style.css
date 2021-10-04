@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	padding: 70px;
+}
+
+#one {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+#one::before {
+	content: 'abc';
+	color: yellow;
+	background-color: black;
+}
+#one::after {
+	content: 'xyz';
+	color: yellow;
+	background-color: black;
+}

@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+body {
+	padding: 30px;
+}
+P {
+	background-color: red;
+	font-size: 20px;
+	line-height: 20px;
+	width: 300px;
+	height: 1em;
+}
+
