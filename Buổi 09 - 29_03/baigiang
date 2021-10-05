@@ -1,0 +1,68 @@
++ Shadow: bong do
+  + box-shadow: bong do cua box
+  + text-shadow: bong do cua text
+
++ thuoc tinh Shadow => ko anh huong den kich thuoc
+ko anh huong den khoang ko gian chiem cho
++ Lam mem chu
+
++ Transition:
++ la chuyen tiep giua 2 trang thai
+  + transition: width
+  + transition: [ten thuoc tinh] [thoi gian] [timing function]
+  + transition-property:
+    + tat ca cac thuoc tinh bang so
+      + width, height, padding, margin, border-width
+      + color, font-size, left, top...
+      + color: so
+  + transition-duration:
+  + transition-timing-function:
+
++ Transition: anh huong den kich thuoc
+
++ Tat ca cac thuoc tinh css:
+  + initial: mac dinh
+  + inherit: theo thang cha
+div 
+  a
+
+a {
+  color: inherit;
+}
+
++ Ap dung nhung gi chung ta da hoc:
+  + Lam mobile menu:
+
+Trick:
+  + Can style cho 1 element cao 100%
+    + html, body: height 100%
+    body => chieu cao tu dong
+
+Menu da cap: transition
+
++ media query: responsive
+
+@media [loai man hinh]
+@media screen and (dieu kien)
+
+@media print and (dieu kien)
+
++ Break point:
+  + La nhung diem: thay doi cach hien thi
+  + > 1200px => man hinh extra large
+  + > 960px => man hinh lon
+  + > 768px => man hinh trung binh
+  + < 768px => man hinh nho
+
+mobile first
+  + code cho man hinh mobile truoc
+  + tu nho => to
+  + bootstrap => mobile first
+
+desktop first
+  + code cho man hinh to
+  => nho dan
+
++ object-fit: dinh nghia hinh anh cua the img
+
+Bien:

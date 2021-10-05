@@ -9,16 +9,16 @@ body {
 }
 @font-face {
 	font-family: BucThu;
-	src: url(font/BucThu.TTF);
+	src: url(fonts/BucThu.TTF);
 }
 @font-face {
 	font-family: BayBuom;
-	src: url(font/BayBuom_R.TTF);
+	src: url(fonts/BayBuom_R.TTF);
 	font-weight: 300;
 }
 @font-face {
 	font-family: BayBuom;
-	src: url(font/BayBuom_B.TTF);
+	src: url(fonts/BayBuom_B.TTF);
 	font-weight: bold;
 }
 p {

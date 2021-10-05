@@ -9,7 +9,7 @@ body {
 }
 @font-face {
 	font-family: BucThu;
-	src: url(font/BucThu.TTF);
+	src: url(fonts/BucThu.TTF);
 }
 p {
 	font-family: BucThu, Arial, Tahoma, sans-serif;

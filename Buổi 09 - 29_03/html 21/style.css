@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+body {
+	--xanhLa: #004700;
+}
+
+#lop {
+	color: var(--xanhLa);
+}
+
+#laptrinh {
+	--mauNen: black;
+}
+#php {
+	background-color: var(--mauNen);
+	color: var(--xanhLa);
+}
+
