@@ -1,0 +1,68 @@
+Bootstrap
+- css framework
+- mobile first
+
+- Cai dat bootstrap:
+  + 2 kieu cai dat
+    + nhung file css, js vao
+    + web pack (compiler)
+
+Grid system:
+
+container/container-fluid => row => col
+
+row: 12 cot
+col-{so} => tat ca cac man hinh
+col-2
+
+col-{loai man hinh}-{so}
+col-md-4
+
+xl: extra large: rat lon
+lg: large: man hinh lon
+md: medium: man hinh trung binh
+sm: small => man hinh nho
+xs: extra small => man hinh rat nho
+
+
+row col => dinh nghia ra 1 row => co cac cot bang nhau
+row-cols-{so} => chia ra {so} cot
+row-cols-sm-{so} => 
+
+offset => day
+flex: d-flex => display flex
+justify-content-between
+
+margin:
++ Quy dinh luon roi => designer =>
+  - m-{so} => m-1, m-2 => so 1=>5
+  mx-{so} => margin ngang
+  my-{so} => margin doc
+  m-{man hinh}-{so}
+  mt-4
+  mr-4
+  ml-3
+  mb-2
+
+padding:
+  p-{so} => p-2
+  px
+  py
+  pl-md-3
+  pr-2
+  pb-3
+
+order-first
+order-last
+
+container => row => col => row => col => row => col
+
+Dinh dang text:
+  + text-center => can giua text
+  + text-uppercase
+  + text-lowercase
+  + text-justify: can deu hai ben
+
+
+Buoi hom sau:
+  + npm => cai dat npm
